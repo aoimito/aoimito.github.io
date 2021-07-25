@@ -1,0 +1,13 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+  font-size: 24px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+h2 {
+  font-size: 20px;
+}
