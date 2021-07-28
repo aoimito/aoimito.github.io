@@ -1,6 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  background: cornsilk;
+  background: black;
 }
 
 #contents {
@@ -20,15 +20,15 @@ li {
 
 h1 {
   font-size: 24px;
-  color:chocolate;
+  color:white;
   padding-bottom: 8px;
-  border-bottom: 1px solid chocolate;
+  border-bottom: 1px solid white;
   text-align: center;
 }
 
 h2 {
   font-size: 20px;
-  color: chocolate;
+  color: white;
 }
 
 img {
@@ -38,4 +38,31 @@ img {
   height: 300px;
   margin: 0 auto;
   padding: 0;
+}
+
+a {
+  color: cadetblue;
+  cursor: pointer;
+  user-select: none;
+}
+
+@media (max-width:600px) {
+  img {
+    display:block;
+    border-radius: 10%;
+    width: 450px;
+    height: 225px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+@media (min-width:900px) {
+  img {
+    display:block;
+    border-radius: 10%;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }
